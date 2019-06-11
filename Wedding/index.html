@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Mr and Mrs Fok</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <!--LINK REL="SHORTCUT ICON" HREF="img/jnj4icon.png"-->
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/jnj4icon.png" />
+  </head>
+  <body style="">
+
+
+      <div class="row">
+        <div class="col-lg-12">
+          <div id="jumbo" class="jumbotron" align="center">
+
+                <img id="jumbo" width="300px" height="500px" src="img/SaveTheDateCard.jpg" >
+            </div>
+          </div>
+      </div>
+
+<!--https://github.com/dwyl/html-form-send-email-via-google-script-without-server/blob/master/package.json-->
+
+      <form id="gform" method="POST" class="pure-form pure-form-stacked">
+      </form>
+
+      <iframe width="0" height="0" border="0" name="dummyframe" id="dummyframe"></iframe>
+
+      <div class="row">
+              <div class="col-lg-5 col-md-6 col-sm-8 col-xs-8 mx-auto">
+              <div class="container">
+                <form id="gform" method="POST" class="pure-form pure-form-stacked" target="dummyframe"
+                action="https://script.google.com/macros/s/AKfycbwrhoPN83uxVXOlA_IF87mVSnCpQyDplxRyAKPyTjGeHWKtRUQ/exec">
+
+                <div class="container">
+                <div class="row form-group floating-label-form-group controls">
+                  <fieldset class="pure-group">
+                    <input type="text" class="form-control" placeholder="Name" name="name" id="name" required="">
+                    <p id="formline" class="help-block text-danger"></p>
+                  </fieldset>
+                  </div>
+                </div>
+                <br>
+
+                <div class="container">
+                <div class="row form-group floating-label-form-group controls">
+                  <fieldset class="pure-group">
+                    <input type="text" class="form-control" placeholder="Mobile Number" name="number" id="number" required="">
+                    <p id="formline" class="help-block text-danger"></p>
+                  </fieldset>
+                  </div>
+                </div>
+                <br>
+
+                  <div class="container">
+                  <div class="row form-group floating-label-form-group controls">
+                    <fieldset class="pure-group">
+                      <input type="text" class="form-control" placeholder="Address" name="address" id="address" required="">
+                      <p id="formline" class="help-block text-danger"></p>
+                    </fieldset>
+                    </div>
+                  </div>
+                  <br>
+
+                  <div class="container">
+                  <div class="row form-group floating-label-form-group controls">
+                <fieldset class="pure-group">
+                      <input type="text" class="form-control" placeholder="Country/City" name="country" id="country" required="">
+                      <p id="formline" class="help-block text-danger"></p>
+                  </fieldset>
+                 </div>
+
+                </div>
+                  <br>
+
+
+                  <div class="container">
+                  <div class="row form-group floating-label-form-group controls">
+                  <fieldset class="pure-group">
+                      <input type="text" class="form-control" placeholder="Postal Code" name="postal" id="postal" required="">
+                      <p id="formline" class="help-block text-danger"></p>
+                </fieldset>
+                 </div>
+
+                </div>
+                  <br>
+
+                  <div class="container">
+                  <div class="row form-group floating-label-form-group controls">
+                  <fieldset class="pure-group">
+                      <input type="text" class="form-control" placeholder="No. of Seats Required" name="seats" id="seats" required="">
+                      <p id="formline" class="help-block text-danger"></p>
+                </fieldset>
+                 </div>
+
+                </div>
+                  <br>
+
+                  <div class="container">
+                  <div class="row form-group floating-label-form-group controls">
+                  <fieldset class="pure-group">
+                      <input type="text" class="form-control" placeholder="Dietary Requirements" name="diet" id="diet">
+                      <p id="formline" class="help-block text-danger"></p>
+                </fieldset>
+                 </div>
+
+                </div>
+                  <br>
+
+                  <div class="container">
+                    <div class="row" >
+
+                  <div class="container" align="center">
+                  <div class="form-group">
+                  <button id="myButton" type="submit" class="btn btn-secondary pure-button">RSVP</button>
+
+                </div>
+                  </div>
+                </div>
+              </div>
+                </form>
+              </div>
+            </div>
+            </div>
+
+
+  <div style="display:none;" id="thankyou_message">
+    <h2><em>Thanks</em> for contacting us!
+      We will get back to you soon!</h2>
+  </div>
+
+
+
+        <div id="eventbox" class='jumbotron'>
+
+            <div class='row'>
+                <div id="eventinnerbox" class='col' align="center">
+                  <div class='btn'>Date</div>
+                    <p id="eventdetails">6th Jan 2018</p>
+                    <p>Holy Matrimony 10:00AM</p>
+                    <p>Lunch Banquet 12:30PM</p>
+                  </div>
+
+
+                <div id="eventinnerbox" class='col' align="center">
+                  <div class='btn'>Location</div>
+                    <p id="eventdetails">Goodwood Park</p>
+                    <p>22 Scotts Rd, S'pore 228221</p>
+                  </div>
+            </div>
+        </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4518.8217559134!2d103.83453081089435!3d1.3085062144823876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19ed48c02ed5%3A0x4d3913b51fe1264c!2sGoodwood+Park!5e0!3m2!1sen!2ssg!4v1504021397052" width="100%" height="350px" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+              <script data-cfasync="false" type="text/javascript"
+              src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+
+            <script src="vendor/jquery/jquery.min.js"></script>
+            <script src="vendor/popper/popper.min.js"></script>
+            <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+            <script src="js/jqBootstrapValidation.js"></script>
+            <script src="js/contact_me.js"></script>
+            <script src="js/clean-blog.min.js"></script>
+            <script type="text/javascript">
+            document.getElementById("myButton").onclick = function () {
+            var a = document.getElementById("name").value;
+            var b = document.getElementById("address").value;
+            var c = document.getElementById("country").value;
+            var d = document.getElementById("postal").value;
+            var e = document.getElementById("number").value;
+            var f = document.getElementById("seats").value;
+
+              if (a.length > 0  && b.length > 0 && c.length > 0 && d.length > 0 && e.length > 0 && f.length > 0 ){
+                popupWindow = window.open('thanks.html', 'name', 'width=750,height=295');
+                popupWindow.focus();}};
+          </script>
+
+  </body>
+
+
+
+</html>
